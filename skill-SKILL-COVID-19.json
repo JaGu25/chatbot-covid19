@@ -1,0 +1,1106 @@
+{
+  "intents": [
+    {
+      "intent": "saludo",
+      "examples": [
+        {
+          "text": "rectmre"
+        },
+        {
+          "text": "holiwi"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "holi"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "ctmr"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "casos_pais",
+      "examples": [
+        {
+          "text": "pais"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "paises"
+        },
+        {
+          "text": "casos por pais"
+        },
+        {
+          "text": "casos del mundo"
+        },
+        {
+          "text": "casos de latinoamerica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "chiste",
+      "examples": [
+        {
+          "text": "broma"
+        },
+        {
+          "text": "Cuentame un chiste"
+        },
+        {
+          "text": "porfavor"
+        },
+        {
+          "text": "joke"
+        },
+        {
+          "text": "estoy aburrido"
+        },
+        {
+          "text": "dime un chiste"
+        },
+        {
+          "text": "chiste"
+        },
+        {
+          "text": "aburrido"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faq_aparicion_sintomas",
+      "examples": [
+        {
+          "text": "aparicion"
+        },
+        {
+          "text": "aparicion de sintomas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "ver"
+        },
+        {
+          "text": "Ayuda"
+        },
+        {
+          "text": "Menú"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "ayudame"
+        },
+        {
+          "text": "necesito ver el menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "creador",
+      "examples": [
+        {
+          "text": "creacion"
+        },
+        {
+          "text": "quien te creo?"
+        },
+        {
+          "text": "como te hizo"
+        },
+        {
+          "text": "creador"
+        },
+        {
+          "text": "desarrollador"
+        },
+        {
+          "text": "tony es un chucha"
+        },
+        {
+          "text": "tony es gozu"
+        },
+        {
+          "text": "gosu"
+        },
+        {
+          "text": "genial"
+        },
+        {
+          "text": "quien te hizo?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "adios",
+      "examples": [
+        {
+          "text": "chau"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "byes"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "bue"
+        },
+        {
+          "text": "hasta luego"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "cya"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fqa_grupos_vulnerables",
+      "examples": [
+        {
+          "text": "grupos"
+        },
+        {
+          "text": "grupos vulnerables"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fqa_sintomas",
+      "examples": [
+        {
+          "text": "tengo fiebre"
+        },
+        {
+          "text": "sintomas"
+        },
+        {
+          "text": "cuales son los sintomas"
+        },
+        {
+          "text": "como se si tengo covid?"
+        }
+      ],
+      "description": "Intención para poder saber los sintomas del covid"
+    },
+    {
+      "intent": "gracias",
+      "examples": [
+        {
+          "text": "ty"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you chamo"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "asu gracias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "insulto",
+      "examples": [
+        {
+          "text": "hdp"
+        },
+        {
+          "text": "mongol"
+        },
+        {
+          "text": "me gusta tu herminia"
+        },
+        {
+          "text": "aea mongol"
+        },
+        {
+          "text": "caea kaka"
+        },
+        {
+          "text": "aea"
+        },
+        {
+          "text": "kaka"
+        },
+        {
+          "text": "ctm"
+        },
+        {
+          "text": "mierda"
+        },
+        {
+          "text": "ctmre"
+        },
+        {
+          "text": "gaaaaaa"
+        },
+        {
+          "text": "gaea"
+        },
+        {
+          "text": "arrogante"
+        },
+        {
+          "text": "creido"
+        },
+        {
+          "text": "sobervio"
+        },
+        {
+          "text": "aea kaka"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid",
+      "examples": [
+        {
+          "text": "coronavirus"
+        },
+        {
+          "text": "covid19"
+        },
+        {
+          "text": "covid"
+        },
+        {
+          "text": "virus de corona"
+        },
+        {
+          "text": "virus de la corona"
+        },
+        {
+          "text": "coronavairus"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fqa",
+      "examples": [
+        {
+          "text": "TENGO covid?"
+        },
+        {
+          "text": "fqa"
+        },
+        {
+          "text": "estoy enfermo?"
+        },
+        {
+          "text": "preguntas frecuentes"
+        },
+        {
+          "text": "preguntas"
+        },
+        {
+          "text": "frecuentes"
+        },
+        {
+          "text": "covid?"
+        },
+        {
+          "text": "fa"
+        },
+        {
+          "text": "a"
+        },
+        {
+          "text": "1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fqa_duracion_sintomas",
+      "examples": [
+        {
+          "text": "duracion"
+        },
+        {
+          "text": "duracion de sintomas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "casos_peru",
+      "examples": [
+        {
+          "text": "peru"
+        },
+        {
+          "text": "casos en peru"
+        },
+        {
+          "text": "dime los casos en peru?"
+        },
+        {
+          "text": "como esta peru'"
+        },
+        {
+          "text": "resumen de peru?"
+        },
+        {
+          "text": "resumen?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "estado",
+      "examples": [
+        {
+          "text": "saludo"
+        },
+        {
+          "text": "Como estas ?"
+        },
+        {
+          "text": "Como estas?"
+        },
+        {
+          "text": "estas bien?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "fqa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "a"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "peru",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "peru",
+          "synonyms": [
+            "2",
+            "b",
+            "peru",
+            "Perú",
+            "casos en perú",
+            "casos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opcion_pais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pais",
+          "synonyms": [
+            "3",
+            "c"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "us",
+          "synonyms": [
+            "US",
+            "EEUU",
+            "Estados unidos",
+            "estados",
+            "unidos",
+            "usa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "russia",
+          "synonyms": [
+            "Rusia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "spain",
+          "synonyms": [
+            "España",
+            "Spain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "united-kingdom",
+          "synonyms": [
+            "Reino Unido",
+            "inglaterra",
+            "kingdom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uruguay",
+          "synonyms": [
+            "Uruguay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "venezuela",
+          "synonyms": [
+            "Venezuela"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "argentina",
+          "synonyms": [
+            "Argentina",
+            "Argentin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "australia",
+          "synonyms": [
+            "Australia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "brazil",
+          "synonyms": [
+            "Brasil",
+            "Brazil",
+            "brázil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chile",
+          "synonyms": [
+            "Chile"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "china",
+          "synonyms": [
+            "China"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "colombia",
+          "synonyms": [
+            "Colombia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "costa-rica",
+          "synonyms": [
+            "Costa Rica",
+            "Costa",
+            "Rica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ecuador",
+          "synonyms": [
+            "Ecuador"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "france",
+          "synonyms": [
+            "france",
+            "le france",
+            "francia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "germany",
+          "synonyms": [
+            "Germany",
+            "Alemania"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "honduras",
+          "synonyms": [
+            "Honduras"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "india",
+          "synonyms": [
+            "India"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "italy",
+          "synonyms": [
+            "Italia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "japan",
+          "synonyms": [
+            "Japan",
+            "Japon",
+            "Japón"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mexico",
+          "synonyms": [
+            "Mexico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "peru",
+          "synonyms": [
+            "Peru",
+            "Perú"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "respuestas_fqa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "e"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "d"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "b"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "a"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "c"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@pais"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1586138477870",
+      "conditions": "@pais",
+      "dialog_node": "node_1_1586147807670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "El tiempo medio desde el inicio de los síntomas hasta la recuperación es de 2 semanas cuando la enfermedad ha sido leve y 3-6 semanas cuando ha sido grave o crítica."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1586135850866",
+      "conditions": "@respuestas_fqa==3 || #fqa_duracion_sintomas",
+      "dialog_node": "response_7_1586144042205",
+      "previous_sibling": "response_9_1586139715787"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "El período de incubación es el tiempo que transcurre entre la infección por el virus y la aparición de los síntomas de la enfermedad. La mayoría de las estimaciones respecto al periodo de incubación de la COVID-19 oscilan entre 1 y 14 días, y en general se sitúan en torno a 5-6 días. :/"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1586135850866",
+      "conditions": "@respuestas_fqa==2 || #faq_aparicion_sintomas",
+      "dialog_node": "response_9_1586139715787",
+      "previous_sibling": "response_8_1586139594802"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Los principales grupos vulnerables son los mayores de 60 años, hipertensión arterial, diabetes, enfermedades cardiovasculares, enfermedades pulmonares crónicas, cáncer, inmunodeficiencias, y el embarazo por el principio de precaución."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1586135850866",
+      "conditions": "@respuestas_fqa==4 || #fqa_grupos_vulnerables",
+      "dialog_node": "response_2_1586144047165",
+      "previous_sibling": "response_7_1586144042205"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los síntomas más comunes incluyen fiebre, tos, y sensación de falta de aire. En algunos casos también puede haber síntomas digestivos como diarrea y dolor abdominal. La mayoría de los casos presentan síntomas leves, sobre todo en niños y adultos jóvenes. Cuídate :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1586135850866",
+      "conditions": "@respuestas_fqa==1 || #fqa_sintomas",
+      "dialog_node": "response_8_1586139594802"
+    },
+    {
+      "type": "standard",
+      "title": "FQA Respuetas",
+      "parent": "node_3_1586135827756",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1586135850866"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego <3 :D !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#adios",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1586185570108",
+      "previous_sibling": "node_2_1586149071318"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@peru"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#casos_peru || @peru",
+      "dialog_node": "node_1_1586138436001",
+      "previous_sibling": "node_5_1586138477870"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Escribe el nombre de un país para poder saber los casos confirmados hasta la fecha actual :o :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#casos_pais || @opcion_pais",
+      "dialog_node": "node_5_1586138477870",
+      "previous_sibling": "node_10_1586202310744"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, soy CoviBot :D !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saludo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1585986254681",
+      "previous_sibling": "node_4_1586222568052"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "fqa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fqa || @fqa",
+      "dialog_node": "node_3_1586135827756",
+      "previous_sibling": "node_1_1586138436001"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No me insultes manito :'(."
+              },
+              {
+                "text": "No me gustan los insultos :/."
+              },
+              {
+                "text": "Besas a tu madre con esa boca? :/ ."
+              },
+              {
+                "text": "No seas malcriado :'(."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#insulto",
+      "dialog_node": "node_5_1586021070629",
+      "previous_sibling": "node_2_1585986254681"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "He sido desarrollado por Dixon/Tony ;) , encuentralo en GitHub como JaGu25  <3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#creador",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1586148513951",
+      "previous_sibling": "node_6_1586021002022"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No te eh entendido :(.  Podrías repetir por favor? :D"
+              },
+              {
+                "text": "No te he entendido, trataré de mejorar ! :D"
+              },
+              {
+                "text": "No te entendí :/."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1586185570108",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estoy bien :D. Gracias por preguntar."
+              },
+              {
+                "text": "Bien bien gracias <3."
+              },
+              {
+                "text": "Bien, porque mi desarrollador me alimenta saludablemente :)-"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#estado",
+      "dialog_node": "node_10_1586202310744",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto el nuevo virus como la enfermedad eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#covid",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1586222568052",
+      "previous_sibling": "node_10_1586108974280"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aquí estaré para ayudarte, trataré de mejorar <3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#gracias",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1586149071318",
+      "previous_sibling": "node_3_1586148513951"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "— ¡Estás obsesionado con la comida!\n\n— No sé a que te refieres croquetamente."
+              },
+              {
+                "text": "— ¿Por qué las focas del circo miran siempre hacia arriba?\n\n— Porque es donde están los focos."
+              },
+              {
+                "text": "— ¿Por qué estás hablando con esas zapatillas?\n\n— Porque pone \"converse\""
+              },
+              {
+                "text": "— ¿Sabes cómo se queda un mago después de comer?\n\n— Magordito"
+              },
+              {
+                "text": "— Me da un café con leche corto.\n\n— Se me ha roto la máquina, cambio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#chiste",
+      "dialog_node": "node_6_1586021002022",
+      "previous_sibling": "node_5_1586021070629"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Menu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#menu",
+      "dialog_node": "node_10_1586108974280",
+      "previous_sibling": "node_3_1586135827756"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola! Soy Covibot ;) . Puedo ayudarte con los siguientes temas :o ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "SKILL COVID-19",
+  "language": "es",
+  "description": ""
+}

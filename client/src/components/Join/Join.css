@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.outerContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 999;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 100%;
+    width: 30%;
+    align-self: flex-end;
+    margin-bottom: 0px;
+}
+
+
+
+@media (min-width: 1280px) and (max-width: 2000px) {
+
+    .container {
+        width: 40%;
+        height: 80%;
+    }
+}
+
+
+@media (min-width: 840px) and (max-width: 1044px) {
+
+    .container {
+        width: 40%;
+        height: 80%;
+    }
+}
+
+
+@media (min-width: 720px) and (max-width: 840px) {
+
+    .container {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 720px) {
+
+
+    .container {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.imgcovid {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+
+.black {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: unset;
+}
+
+.containerInicio {
+    align-self: auto !important;
+    height: unset !important;
+    background-color: white !important;
+    align-items: center;
+    width: unset !important;
+}
+
+.buttonContainer{
+    background-color: transparent !important;
+}
+.button{
+    margin: 1rem;
+    border-radius: 30px;
+    background-color: #297999;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.heading {
+    font-size: 1rem;
+    align-items: center !important;
+    padding: 5px 30px;
+}
+
+.heart {
+    color: red;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.git{
+    width: 15px;
+    padding-top: 3px;
+    margin-right: 3px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 5px;
+}
